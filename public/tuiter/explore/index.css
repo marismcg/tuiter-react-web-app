@@ -1,78 +1,12 @@
-.wd-background-black {
-    background-color: black;
+.wd-navbar {
 }
 
-.wd-border {
-    border-width: 1px;
-    border-color: rgb(47, 51, 54);
-    border-style: solid;
+.wd-navbar #tweet-button {
+    width: 100%;
+    border-radius: 40px;
+    margin-top: 10px;
 }
 
-.wd-content-offset {
-    margin: 4px 4px 4px 16px;
-    padding-bottom: 20px;
-}
-
-.wd-flex-display {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.wd-searchbar {
-    background-color: #2C2C2E;
-    color: white;
-    border-radius: 30px;
-    padding: 7px 20px;
-    border: 0;
-    width: 80%;
-    font-family: Arial, FontAwesome;
-}
-
-.wd-gear {
-    color: rgb(29, 161, 242);
-    padding-right: 12px;
-}
-
-.wd-topic {
-    color: rgb(110, 118, 125);
-    font-size: 13px;
-}
-
-.wd-title {
-    color: white;
-    font-size: 14px;
-}
-
-.wd-number {
-    color: rgb(110, 118, 125);
-    font-size: 12px;
-}
-
-.wd-image {
-    float: right;
-    height: 100px;
-    width: 100px;
-    margin-right: 16px;
-    border-radius: 10px;
-}
-
-.wd-highlighted-link {
-    color: rgb(29, 161, 242);
-    font-size: 15px;
-    padding: 16px;
-    border-style: solid;
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-bottom-width: 2px;
-    border-color: rgb(29, 161, 242);
-    text-decoration: none;
-}
-
-.wd-link {
-    color: rgb(110, 118, 125);
-    font-size: 15px;
-    padding: 16px;
-    text-decoration: none;
+.wd-iwt {
+    display: block;
 }
