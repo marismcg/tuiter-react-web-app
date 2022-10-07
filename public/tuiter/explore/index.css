@@ -10,3 +10,20 @@
 .wd-iwt {
     display: block;
 }
+
+span.wd-span {
+    background-color: white;
+}
+
+.wd-round-border {
+    border-radius: 40px;
+}
+
+.wd-searchbar-width {
+    width: 80%;
+}
+
+.wd-center-column img {
+    margin: auto;
+    display: block;
+}
