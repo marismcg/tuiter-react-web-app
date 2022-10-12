@@ -1,13 +1,3 @@
-.wd-navbar #tweet-button {
-    width: 100%;
-    border-radius: 40px;
-    margin-top: 10px;
-}
-
-.wd-iwt {
-    display: block;
-}
-
 span.wd-span {
     background-color: white;
 }
@@ -16,21 +6,10 @@ span.wd-span {
     border-radius: 40px;
 }
 
-.wd-searchbar-width {
-    width: 80%;
+.wd-icon {
+    color: #6c757d;
 }
 
-.wd-center-column img {
-    margin: auto;
-    display: block;
-}
-
-.wd-fit-image {
-    width: 100%;
-    object-fit: cover;
-}
-
-.wd-flex-display {
-    display: flex;
-    align-items: center;
+h2 {
+    font-weight: bold;
 }
