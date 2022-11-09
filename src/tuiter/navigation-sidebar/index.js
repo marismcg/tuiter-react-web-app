@@ -1,18 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 
-const NavigationSidebar = (
-    {
-        active = 'explore'
-    }
-) => {
+const NavigationSidebar = () => {
+
+    const [active, setActive] = useState('explore');
+
     return (
         <div className="list-group">
             <a href="/#" className="list-group-item">Tuiter</a>
-            <a href="/#" className={`list-group-item
+            <a href="/tuiter/home" onClick={() => setActive('home')} className={`list-group-item
                     ${active === 'home'?'active':''}`}>
                 Home
             </a>
-            <a href="/#" className={`list-group-item
+            <a href="/tuiter" onClick={() => setActive('explore')}className={`list-group-item
                     ${active === 'explore'?'active':''}`}>
                 Explore
             </a>
