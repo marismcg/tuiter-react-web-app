@@ -12,9 +12,11 @@ const TuitStats = ({tuit}) => {
                 {tuit.retuits}
             </div>
             <div className="col-3">
-                {!tuit.liked && <i className="bi bi-heart"></i>}
-                {tuit.liked && <i style={{color: 'red'}} className="bi bi-heart-fill"></i>}
-                {tuit.likes}
+                Likes: {tuit.likes}
+                <i onClick={() => dispatch(updateTuitThunk({
+                    ...tuit,
+                    likes: tuit.likes + 1
+                }))} className="bi bi-heart-fill me-2 text-danger"></i>
             </div>
             <div className="col-3">
                 <i className="bi bi-share"></i>
